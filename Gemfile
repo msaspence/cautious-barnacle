@@ -9,10 +9,9 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'       # Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0'       # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.1.0'   # Use CoffeeScript for .coffee assets and views
-
-
 gem 'jquery-rails'               # Use jquery as the JavaScript library
-gem 'jbuilder', '~> 2.0'         # Build JSON APIs with ease.
+
+gem 'jsonapi-resources'          # A resource-focused Rails library for developing JSON API compliant servers
 
 
 group :development, :test do
